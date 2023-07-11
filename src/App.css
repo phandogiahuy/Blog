@@ -1,0 +1,129 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: aqua;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: aquamarine;
+  z-index: 1;
+}
+.header-left {
+  flex: 1;
+  display: flex;
+  border: 1px solid red;
+}
+.header-right {
+  flex: 1;
+  border: 1px solid red;
+}
+.header-middle {
+  flex: 1;
+  display: flex;
+  border: 1px solid red;
+}
+.header-logo {
+  font-weight: bold;
+  align-self: center;
+}
+.header-name {
+  font-weight: bold;
+  align-self: center;
+  margin-left: 200px;
+}
+
+.header-infor {
+  display: flex;
+}
+.infor-img {
+  width: 70px;
+}
+.infor-name {
+  align-self: center;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.Main {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Post {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  background-color: #ffff;
+  margin-top: 15px;
+  margin-right: 50px;
+  border-radius: 20px;
+  padding: 10px 10px 20px 10px;
+  width: 1000px;
+  cursor: pointer;
+}
+.post-name {
+  align-self: center;
+  font-weight: bold;
+  font-size: larger;
+  display: flex;
+}
+.post-title {
+  margin-left: 5px;
+  font-weight: 500;
+}
+.post-author-name {
+  margin-left: 10px;
+  font-weight: 400;
+}
+.post-author {
+  font-weight: bold;
+  display: flex;
+}
+.post-date {
+  font-weight: bold;
+  display: flex;
+}
+.post-author-date {
+  margin-left: 5px;
+  font-weight: 400;
+}
+.post-content {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.countComment {
+  margin-top: 10px;
+}
+.Comment {
+  display: flex;
+  margin-top: 10px;
+}
+.comment-img {
+  width: 50px;
+}
+.comment-name {
+  font-weight: bold;
+}
+.comment-content {
+  font-weight: 400;
+}
+.countComment {
+  font-size: 12px;
+  font-weight: 200;
+}
+.search-Iteam {
+  background-color: cornsilk;
+  margin-left: 630px;
+  margin-top: 20px;
+  width: fit-content;
+}
